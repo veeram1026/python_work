@@ -1,4 +1,4 @@
-# Simple game for checking is there the guess correct ?
+# Simple guess game for checking is the user guess correct ?
 
 class GuessGame():
     
@@ -46,6 +46,6 @@ class GuessGame():
             else :
                 print('your are over the guess')
 
-#creating instance of the GuessGame class and calling play gane function to p
+# Creating a instance of the GuessGame class and calling play gane function to play the guess game.
 GuessGame(12).play_game()
           
