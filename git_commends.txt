@@ -4,7 +4,7 @@ git add <filename> --> for adding the file to be commited (alsoknown as staging)
 git add <.> --> for adding entire files to the stageing area.
 git status --> for showing the status of the 
 git restore --staged <filrname> --> for restore the added file back into working directory.
-git restore <filename> --> for restore or discard all the changes in working directory to this file.
-git commit -m 'message or descripton' 
+git restore <filename> --> for restore or discard all the changes in working directory to this file. 
+git commit -m 'message or descripton' --> for commiting our changes (making a new version)
 git commit -am 'message or discription' --> for both stage(add) and commit on singlr commend
 cat <filename> --> for open the file inside the bash
