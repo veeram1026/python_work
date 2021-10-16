@@ -8,3 +8,4 @@ git restore <filename> --> for restore or discard all the changes in working dir
 git commit -m 'message or descripton' --> for commiting our changes (making a new version)
 git commit -am 'message or discription' --> for both stage(add) and commit on singlr commend
 cat <filename> --> for open the file inside the bash
+git pull --> for pulling the recent code from remote to local
