@@ -2,6 +2,7 @@ git clone <url> --> for cloning the remote repository.
 touch <filename with extention> --> for creating new file in this repository.
 git add <filename> --> for adding the file to be commited (alsoknown as staging).
 git add <.> --> for adding entire files to the stageing area.
+git status --> for showing the status of the 
 git restore --staged <filrname> --> for restore the added file back into working directory.
 git restore <filename> --> for restore or discard all the changes in working directory to this file.
 git commit -m 'messege or descripton'
