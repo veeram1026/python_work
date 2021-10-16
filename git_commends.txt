@@ -10,4 +10,5 @@ git commit -am 'message or discription' --> for both stage(add) and commit on si
 cat <filename> --> for open the file inside the bash
 git pull --> for pulling the recent code from remote to local
 git push --> pushing a latest code into remote.
-
+git checkout -b <new branch name> --> for creating new branch and switch on that branch.
+git checkout <branch name> --> for swiching to the branch.
