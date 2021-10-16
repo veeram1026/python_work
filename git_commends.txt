@@ -9,3 +9,5 @@ git commit -m 'message or descripton' --> for commiting our changes (making a ne
 git commit -am 'message or discription' --> for both stage(add) and commit on singlr commend
 cat <filename> --> for open the file inside the bash
 git pull --> for pulling the recent code from remote to local
+git push --> pushing a latest code into remote.
+
