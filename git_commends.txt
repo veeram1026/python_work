@@ -19,7 +19,6 @@ git branch --> for showing all the branches inside the repo has(local).
 git branch -a --> for showing all the branches including remote also.
 git checkout -b <new branch name> --> for creating new branch and switch on that branch.
 git checkout <branch name> --> for swiching to another branch.
-git branch --> for showing all the branches repo has locally.
 git branch -D <branch name> --> for hard deleting the branch form repo.(herd method)
 git rm --cached <filename> --> for removing file form staging area (index) to working directory(safe method)
 git rm -f <filename> --> for removing file permanately form index and working directory.(hard method)
@@ -28,3 +27,4 @@ git rm -r <filename> --> for removing folder form repo and file system and it is
 git ls-tree -r <branch> --> for showing the list of file tracked on the repo.
 git --version --> for knowing the version of the git installed.
 git update-git-for-windows --> for uptading git version.
+cat .git/HEAD --> for showing the current commit or branch we are refering.
