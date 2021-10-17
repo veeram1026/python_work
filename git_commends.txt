@@ -28,3 +28,4 @@ git ls-tree -r <branch> --> for showing the list of file tracked on the repo.
 git --version --> for knowing the version of the git installed.
 git update-git-for-windows --> for uptading git version.
 cat .git/HEAD --> for showing the current commit or branch we are refering.
+git push origin --delete <branch name>  --> for deleting the remote branch.
