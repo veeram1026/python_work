@@ -1,7 +1,10 @@
 git clone <url> --> for cloning the remote repository.
 touch <filename with extention> --> for creating new file in this repository.
 git add <filename> --> for adding the file to be commited (alsoknown as staging).
-git add <.> --> for adding entire files to the stageing area.
+git add <.> --> for adding all untracked,modified and deleted files inside the current directory to the repo.
+git add -A --> for adding all untracked,modified and deleted files to the repo. 
+git add < *.extentension > for adding all file with the matched extention.
+git add -u --> for adding tracked files(modified and deleted.)
 git status --> for showing the status of the 
 git restore --staged <filrname> --> for restore the added file back into working directory.
 git restore <filename> --> for restore or discard all the changes in working directory to this file. 
@@ -21,3 +24,4 @@ git rm -f <filename> --> for removing file permanately form index and working di
 git rm <filename> --> for removing file form repo and file system and it is effective once have commited.
 git rm -r <filename> --> for removing folder form repo and file system and it is effective once have commited.
 git ls-tree -r <branch> --> for showing the list of file tracked on the repo.
+git --version --> for knowing the version of the git installed.
