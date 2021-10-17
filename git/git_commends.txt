@@ -17,6 +17,8 @@ git log --> for showing all the logs of the commits (lile date,modified by,commi
 ls --> for showing the list of files in this repo.
 git branch --> for showing all the branches inside the repo has(local).
 git branch -a --> for showing all the branches including remote also.
+git branch <name> --> for creating new branch in local.
+git branch -m <oldname> <newname> --> for rename the branch locally.
 git checkout -b <new branch name> --> for creating new branch and switch on that branch.
 git checkout <branch name> --> for swiching to another branch.
 git branch -D <branch name> --> for hard deleting the branch form repo.(herd method)
@@ -29,3 +31,6 @@ git --version --> for knowing the version of the git installed.
 git update-git-for-windows --> for uptading git version.
 cat .git/HEAD --> for showing the current commit or branch we are refering.
 git push origin --delete <branch name>  --> for deleting the remote branch.
+git push orgin :<old name> <new name>  --> for renaming remote branch.
+git push origin -u <branch name> --> publishing local branch to remote.
+git push --set-upstream origin <branch name> --> publishing local branch to remote.
