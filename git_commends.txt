@@ -5,9 +5,9 @@ git add <.> --> for adding all untracked,modified and deleted files inside the c
 git add -A --> for adding all untracked,modified and deleted files to the repo. 
 git add < *.extentension > for adding all file with the matched extention.
 git add -u --> for adding tracked files(modified and deleted.)
-git status --> for showing the status of the 
+git status --> for showing the status of the loacl repo.
 git restore --staged <filrname> --> for restore the added file back into working directory.
-git restore <filename> --> for restore or discard all the changes in working directory to this file. 
+git restore <filename> --> for restore or discard all the changes in working directory. 
 git commit -m 'message or descripton' --> for commiting our changes (making a new version)
 git commit -am 'message or discription' --> for both stage(add) and commit on singlr commend
 cat <filename> --> for open the file inside the bash
@@ -17,7 +17,8 @@ git log --> for showing all the logs of the commits (lile date,modified by,commi
 ls --> for showing the list of files in this repo.
 git branch --> for showing all the branches inside the repo has.
 git checkout -b <new branch name> --> for creating new branch and switch on that branch.
-git checkout <branch name> --> for swiching to the branch.
+git checkout <branch name> --> for swiching to another branch.
+git branch --> for showing all the branches repo has locally.
 git branch -D <branch name> --> for hard deleting the branch form repo.(herd method)
 git rm --cached <filename> --> for removing file form staging area (index) to working directory(safe method)
 git rm -f <filename> --> for removing file permanately form index and working directory.(hard method)
@@ -25,3 +26,4 @@ git rm <filename> --> for removing file form repo and file system and it is effe
 git rm -r <filename> --> for removing folder form repo and file system and it is effective once have commited.
 git ls-tree -r <branch> --> for showing the list of file tracked on the repo.
 git --version --> for knowing the version of the git installed.
+git update-git-for-windows --> for uptading git version.
