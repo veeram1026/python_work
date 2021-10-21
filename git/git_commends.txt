@@ -38,3 +38,4 @@ git push origin --delete <branch name>  --> for deleting the remote branch.
 git push orgin :<old name> <new name>  --> for renaming remote branch.
 git push origin -u <branch name> --> publishing local branch to remote.
 git push --set-upstream origin <branch name> --> publishing local branch to remote.
+git status --short
