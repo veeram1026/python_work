@@ -2,6 +2,9 @@ git config --global user.name <name you want>  --> global for enrire repos in yo
 git config --global user.email <email id of cloud repo providder while register>
 git clone <url> --> for cloning the remote repository.
 touch <filename with extention> --> for creating new file in this repository.
+git help --all or git help -a --> for showing all the commands and its descriptions.
+git <command> -help  for showing the desired command and its descriptions.
+git <command> --help for showing the relevent manual in browser. 
 git add <filename> --> for adding the file to be commited (alsoknown as staging).
 git add <.> --> for adding all untracked,modified and deleted files inside the current directory to the repo.
 git add --all --> for adding all untracked,modified and deleted files to the repo.
@@ -13,11 +16,11 @@ git status --short --> for showing the status of the loacl repo as short like M 
 git restore --staged <filrname> --> for restore the added file back into working directory.
 git restore <filename> --> for restore or discard all the changes in working directory. 
 git commit -m <'message or descripton'> --> for commiting our changes (making a new version)
-git commit -am <'message or discription'> --> for both stage(add) and commit on single commend
+git commit -am <'message or discription'> --> for both stage(add) and commit on single command (only tracked files).
 cat <filename> --> for open the file inside the bash
 git pull --> for pulling the recent code from remote to local
 git push --> pushing a latest code into remote.
-git log --> for showing all the logs of the commits (lile date,modified by,commit name etc.) 
+git log --> for showing all the logs of the commits (lile date,modified by,commit name etc). 
 ls --> for showing the list of files in this repo.
 git branch --> for showing all the branches inside the repo has(local).
 git branch -a --> for showing all the branches including remote also.
